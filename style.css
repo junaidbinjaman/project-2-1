@@ -1,0 +1,121 @@
+html,
+body {
+    margin: -10px 0px;
+    font-family: Poppins;
+}
+
+.global-width {
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*Hero area design*/
+
+.hero-area {
+    margin: 0px;
+    background-image: url(img/background/bg\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    z-index: 1;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 630px;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+nav>.nav>ul>li {
+    list-style: none;
+    float: left;
+    padding-right: 20px;
+}
+
+ul>li>a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.nav {
+    height: 50px;
+    padding-top: 20px;
+}
+
+.dropdown>ul {
+    list-style: none;
+    position: absolute;
+    display: none;
+}
+
+.dropdown>ul>li>a {
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.dropdown:hover ul {
+    display: block;
+    background: white;
+    padding: 30px 40px;
+}
+
+.dropdown>ul>li>a:hover {
+    color: darkgray;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+/*hero area content design*/
+
+.hero-left {
+    width: 60%;
+    margin-top: 110px;
+}
+
+.hero-divider {
+    height: 3px;
+    background-color: white;
+    width: 70%;
+    margin-top: -10px;
+}
+
+.hero-left>h1 {
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.hero-left>h2 {
+    font-family: Poppins;
+    font-size: 30px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: -30px;
+}
+
+.hero-left>p {
+    color: lightgray;
+}
+
+.hero-btn {
+    padding: 15px 45px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+}
